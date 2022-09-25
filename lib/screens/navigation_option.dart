@@ -38,16 +38,20 @@ class NavigationOption extends StatelessWidget {
                       height: 12,
                     ),
                     Container(
-                      height: 8.0,
-                      width: 8.0,
+                      height: 6.0,
+                      width: 12.0,
                       decoration: BoxDecoration(
                         color: kPrimaryColor,
-                        shape: BoxShape.circle,
+                        borderRadius: const BorderRadius.all(
+                          Radius.circular(4),
+                        ),
                       ),
                     ),
                   ],
                 )
-              : Container(),
+              : const SizedBox(
+                  height: 0,
+                ),
         ],
       ),
     );
