@@ -3,8 +3,6 @@ import 'package:covid_tracker/screens/global.dart';
 import 'package:flutter/material.dart';
 import 'package:covid_tracker/utils/constants.dart';
 import 'package:covid_tracker/screens/navigation_option.dart';
-import 'package:covid_tracker/screens/country.dart';
-import 'package:covid_tracker/screens/global.dart';
 
 enum NavigationStatus {
   GLOBAL,
