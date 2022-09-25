@@ -27,6 +27,7 @@ class _TrackerState extends State<Tracker> {
         title: const Text(
           'COVID Live Tracker',
           style: TextStyle(
+            letterSpacing: 1.1,
             fontWeight: FontWeight.bold,
           ),
         ),
