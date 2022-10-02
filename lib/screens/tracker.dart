@@ -27,9 +27,9 @@ class _TrackerState extends State<Tracker> {
       appBar: AppBar(
         backgroundColor: kPrimaryColor,
         title: const Text(
-          'COVID Live Tracker',
+          'COVID LIVE TRACKER',
           style: TextStyle(
-            letterSpacing: 1.1,
+            letterSpacing: 1.5,
             fontWeight: FontWeight.bold,
           ),
         ),
